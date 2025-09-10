@@ -3,7 +3,7 @@ void main()
 {
 int a,b;
 clrscr();
-printf("ENTER TWO NUMBERS:");
+printf("ENTER TWO NUMBERS:");// check the greatest of two numbers.
 scanf("%d %d",&a,&b);
 if(a>b)
   printf("%d is greater than %d",a,b);
@@ -11,3 +11,4 @@ else
   printf("%d is greater than %d",b,a);
 getch();
 }
+
