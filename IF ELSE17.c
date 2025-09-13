@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int num,orignum,digit,sum=0;
+int num,orignum,digit,sum=0;//check whether a number is armstrong or not. 
 clrscr();
 printf("ENTER ANY NUMBER:");
 scanf("%d",&num);
@@ -18,3 +18,4 @@ else
   printf("The number entered is not an Armstrong Number.");
 getch();
 }
+
