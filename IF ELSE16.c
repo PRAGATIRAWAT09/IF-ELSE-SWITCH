@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c;
+int a,b,c;//clasify triangle as equilateral,isosceles and scalene.
 clrscr();
 printf("ENTER THE SIDES OF A TRIANGLE:");
 scanf("%d,%d,%d",&a,&b,&c);
@@ -13,3 +13,4 @@ else
   printf("The triangle is a Scalene triangle.");
 getch();
 }
+
