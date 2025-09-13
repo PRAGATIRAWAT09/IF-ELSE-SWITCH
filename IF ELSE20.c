@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-int num, i, isPrime = 1;
+int num, i, isPrime = 1;//check whether a number is prime or not.
 clrscr();
 printf("Enter a number: ");
 scanf("%d",&num);
