@@ -3,7 +3,7 @@ void main()
 {
 float CP,SP;
 float profit, loss;
-float profitPercentage, lossPercentage;
+float profitPercentage, lossPercentage;//find profit or loss percentage.
 printf("Enter Cost Price: ");
 scanf("%f", &CP);
 printf("Enter Selling Price: ");
